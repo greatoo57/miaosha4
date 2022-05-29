@@ -46,7 +46,7 @@ public class DemoController {
     @RequestMapping("/eat")
     @ResponseBody
     String play(){
-        return "123";
+        return "1234";
     }
 
     @RequestMapping("/eat1")
