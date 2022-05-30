@@ -36,7 +36,7 @@ public class DemoController {
     @ResponseBody
     public Result<String> mq(){
         sender.send("a");
-        return Result.success("猪溢心2");
+        return Result.success("猪溢心3");
     }
 
 
